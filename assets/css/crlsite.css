@@ -1,0 +1,412 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+html {
+    max-width: 100%;
+    font-size: 100%;
+}
+
+body {
+    max-width: 100%;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	cursor: crosshair;
+}
+
+img {
+    max-width: 100%;
+}
+
+video {
+    max-width: 100%;
+    width: 1246px;
+}
+
+::-moz-selection {
+    background: #9FC131;
+}
+
+::selection {
+    background: #9FC131;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Nav menu section */
+
+#nav {
+    background: #01141F;
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    padding-right: 2rem;
+    margin: 0;
+}
+
+nav ul li:nth-child(4) {
+    padding-right: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #DBF227;
+    text-decoration: underline;
+}
+
+/* Project information area */
+
+/* Hero section */
+
+.hero-section {
+    background-color: #01141F;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .container {
+    text-align: center;
+}
+
+.hero-section h1, .hero-section p {
+    line-height: 2.5rem;
+    color: #F4F4F4;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: .8rem;
+}
+
+.direct-link {
+    text-decoration: none;
+    color: #9FC131;
+    font-weight: bold;
+}
+
+/* About this project section */
+
+.about-project {
+    background-color: #042940;
+    color: #F2F2F2;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.about-project h2{
+    margin: 0;
+    text-align: center;
+}
+
+.about-project h2 {
+    padding: 4rem 0 2rem 0;
+}
+
+.about-project h3 {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.about-project .title-hr1, .about-project .title-hr2, .about-project .title-hr3 {
+    margin: 0 auto 2rem
+}
+
+.about-project .title-hr1 {
+    width: 6rem;
+}
+
+.about-project .title-hr2 {
+    width: 8rem;
+}
+
+.about-project .title-hr3 {
+    width: 7.5rem;
+}
+
+.about-project .content-hr {
+    width: 50%;
+    margin: 4rem auto;
+}
+
+.project-info {
+    padding: 2rem 0;
+}
+
+.project-info p:nth-child(3) {
+    padding: 0 0 2rem;
+}
+
+.project-info p {
+    font-size: .9rem;
+}
+
+/* The idea section */
+
+.project-idea, .project-process {
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+.project-idea {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* The process section */
+
+.project-process .final {
+    max-width: 570px;
+}
+
+/* The design section */
+
+img, video {
+    margin: 2rem 0;
+}
+
+
+/* The below CSS is for the contact form and the signature, to keep consistency throughout the pages */
+
+footer {
+    background: #01141F;
+    width: 100%;
+    padding: 5rem 2rem;
+    color: white;
+}
+
+.footer-text span {
+    color: #DBF227;
+}
+
+.footer-text {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.footer-row {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.footer-row input, .footer-row textarea {
+    display: inline-flex;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ECECEC;
+    border-left: 0;
+    background: none;
+    color: #ECECEC;
+    font-size: 1rem;
+    width: 25%;
+    margin: 2rem auto;
+    height: 2rem;
+}
+
+.footer-row textarea {
+    width: 82%;
+    height: 9rem;
+    justify-content: center;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+::-moz-placeholder {
+    color: white;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+#contact .col-2 {
+    margin: 0 auto;    
+}
+
+#contact .footer-row button {
+    border: 1px solid #DBF227;
+    background: none;
+    font-size: 1rem;
+    color: #ECECEC;
+    width: 22%;
+    padding: 1% 0;
+    border-radius: 50px;
+    margin-bottom: 5rem;
+    font-weight: 600;
+}
+
+#contact .footer-row button:hover {
+    background: #DBF227;
+    color: #042940;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .socials {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    margin-left: 0.5rem;
+    width: 1.5rem;
+    border-radius: 2px;
+}
+
+footer img:hover {
+    background-color: #9FC131;
+}
+
+@media ( max-width: 800px ) {
+    
+    .footer-row {
+        flex-direction: column;
+    }
+    
+    .footer-row input, .footer-row textarea {
+        width: 90%;
+    }
+    
+    #contact .footer-row button {
+        align-self: center;
+    }
+
+}
+
+@media ( max-width: 500px ) {
+    #contact .footer-row button {
+        font-size: 0.8rem;
+    
+    }
+}
+
+@media ( min-width: 600px ) {
+    
+    
+    .about-project .container {
+        max-width: 1100px;
+    }
+    
+    nav ul {
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    
+    .html {
+        display: flex;
+    }
+    
+    .html > div {
+        flex: 1;
+    }
+    
+    .html .col1 {
+        padding-right: 2rem;
+    }
+    
+    .css {
+        display: flex;
+    }
+    
+    .css > div {
+        flex: 1;
+    }
+    
+    .css .col1 {
+        padding-right: 2rem;
+    }
+    
+    .mobile {
+        display: flex;
+    }
+    
+    .mobile > div {
+        flex: 1;
+    }
+    
+    .mobile .col1 {
+        padding-right: 2rem;
+    }
+    
+    .desktop {
+        display: flex;
+    }
+    
+    .desktop > div {
+        flex: 1;
+    }
+    
+    .desktop .col1 {
+        padding-right: 2rem;
+    }
+    
+    img, video {
+        box-shadow: 9px 9px 20px 5px black;
+    }
+    
+    .design-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+
+@media ( min-width: 900px ) {
+    img, video {
+        width: 46%;
+        margin-left: 1rem;
+        maring-right: 1rem;
+        transition: all 0.7s ease-in-out;
+    }
+    
+    img:hover, video:hover {
+        transform: scale(1.2);
+    
+    }
+}
+

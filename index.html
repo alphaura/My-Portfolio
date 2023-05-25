@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="favicon" href="assets/img/favicon.png">
+
+</head>
+
+<body>
+    
+	<!-- This is where I put my hero banner, header title, languages I know and a photo of myself. I have also added a nav bar which has a home, blog, portfolio and contact buttons. -->
+    
+	<header>
+		<div class="herocontainer mainherocontainer">
+			<div class="hero">
+				<h2>Hi👋, I'm Kyle!<br>
+                    Welcome to my space</h2>
+				<p></p>
+			    <p><span class="html">HTML</span> | <span class="css">CSS</span> | <span class="javascript">JavaScript</span></p>
+			</div>
+            <div id="header-nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog/index.html">Blog</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+		</div>
+	</header>
+	
+	<main>
+        
+        
+        <!--   To put about me section below     -->
+        
+        <section class="aboutme">
+            <div class="aboutme-container flex-row">
+                <div class="col">
+                    <h4>About Me</h4>
+                    <h2>The who, what, and where...</h2>
+                </div>
+                <div class="col-2">
+                    <div class="aboutmeflex">
+                        <h3>The Who...</h3>
+                        <p>My name is Kyle, and I am an enthusiastic individual driven by a strong desire for continuous growth and development in various aspects of life, particularly in both personal and professional domains.</p>
+                    </div>
+                    <div class="aboutmeflex">
+                        <h3>The What...</h3>
+                        <p>I have gained valuable experience working full-time as a CS agent in the iGaming industry, and also as a part-time football coach, where I have honed my skills in customer service and problem-solving. I am fully committed to my full-time job while actively focusing on personal and professional growth in the field of web development.</p>
+                    </div>
+                    <div class="aboutmeflex">
+                        <h3>The Where...</h3>
+                        <p>My main goal is to secure an opportunity that enables me to thrive in the web development industry, continuously expand my knowledge, and further strengthen my existing skills. I am also eager to explore freelance opportunities to apply and challenge my expertise while working on independent projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--   Here I put the most recents works I have done, linking them to the actual project or potentially to a Notion page with some extra information about the project itself (Unless I decided to implement it as another page in my personal site)...     -->
+        
+	    <section id="portfolio">
+            <div class="portfolio-container">
+                <h4>My Portfolio</h4>
+                <h1>Some of my recent works</h1>
+                                        
+                <div class="work-container flex-row">
+                    <div class="work1"><a href="work/crl-site/index.html"><img src="assets/img/crlthumbnail.jpg" alt="Project about responsive web design"></a></div>
+                    <div class="work2"><a href="#"><img src="assets/img/lineart-samurai.jpg" alt="Line-art samurai design"></a></div>
+                    <div class="work3"><a href="#"><img src="assets/img/dragon-katana.jpg" alt="Line-art dragon with a katana and text saying 'Your mind is your best weapon'"></a></div>
+                </div>
+            </div>
+        </section>
+	
+	</main>
+	
+    <!-- This is the footer section where I have created a form that anyone can fill in and write a message to get in touch with me directly through the site. I have also added          that the site was created by myself. --> 
+	<footer>
+        <section id="contact">
+            <div class="contactwrap flex-row">
+                <div class="col">
+                    <h3 class="footer-text"><span>Let's connect!</span></h3>
+                    <p class="footer-text">If you have suggestions, improvements, ideas, opportunities or feel like a chat, feel free to fill out the below form, and drop your message.</p>
+                </div>
+                <div id="footer-form" class="col-2">
+                    <form name="subscribe-form">
+                        <div class="footer-row">
+                            <input type="text" name="name" aria-required="true" aria-invalid="false" placeholder="First Name" required>
+                            <input type="text" name="lname" aria-required="true" aria-invalid="false" placeholder="Last Name" required>
+                            <input type="email" name="email" aria-required="true" aria-invalid="false" placeholder="Your Email Address" required>
+                        </div>
+                        <div class="footer-row">
+                            <textarea name="message" cols="70" rows="10" aria-invalid="false" aria-required="true" required></textarea>
+                        </div>
+                        <div class="footer-row">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="signature">
+            <div class="footer-container">
+                <p class="creator">Created by Kyle M.</p>
+                <p class="socials">Reach out: <a href="https://www.linkedin.com/in/kylemagri/" target="_blank"><img src="assets/img/linkedin.png" alt="LinkedIn Logo"></a></p>
+            </div>
+        </section>
+	</footer>
+</body>
+</html>

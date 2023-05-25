@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	cursor: crosshair;
+    max-width: 100vw;
+    background: #042940;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* CSS for the navigation menu */
+
+/*! To ponential put a logo on the left side and the menu items on the right side !*/
+
+.nav-container {
+    margin-left: 6%; 
+}
+
+#header-nav {
+    margin: 0;
+    padding-top: 1rem;
+    background: #042940;
+}
+
+#header-nav ul {
+    list-style: none;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#header-nav ul li {
+    margin-right: 2rem;
+
+}
+
+#header-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* CSS for the Hero section */
+
+.hero {
+	color: #F4F4F4;
+}
+
+.hero h1 {
+	text-align: center;
+	font-size: 6rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-shadow: 5px 15px 10px #01141F;
+}
+
+/* The below CSS is mostly for the blog, it is split in between consistent CSS design and per blog design */
+
+#blog {
+    background: #01141F;
+}
+
+hr {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* This is the section-wrapper area, which is keeping consistency throughout the blog writting posts */
+
+.section-wrapper {
+	margin: 0 auto;
+	text-align: justify;
+    padding: 2em 2em;
+    width: 80%;
+    color: #EDEDED;
+}
+
+.section-wrapper h2 {
+	margin: 0;
+	padding: 1em 0;
+	font-style: oblique;
+	font-size: 1.7rem;
+}
+
+.section-wrapper p {
+	margin: 0;
+    line-height: 2rem;
+    font-size: 1.1rem;
+
+}
+
+/* CSS for the UL and linkedIn post in blog-002 */
+
+.blog002 {
+    background: #042940;
+}
+
+.blog002 ul {
+    margin: 0;
+    padding: 3rem;
+}
+
+.blog002 ul li {
+    line-height: 2rem;
+    margin: 1rem 0;
+}
+
+.blog002 .linkedinpost {    
+    width: 100%;
+    padding: 5rem 2rem 5rem 2rem;
+    margin: -3rem;
+    margin: 0 auto;
+}
+
+/* The below CSS is for the contact form and for the signature, to keep consistency throughout the pages */
+
+article footer {
+	margin: 1rem 0 0 0;
+	padding: 1em 0;
+    background: none;
+    display: flex;
+    align-self: flex-start;
+    width: 16rem;
+}
+
+article footer:hover {
+	color: #DBF227;
+}
+
+

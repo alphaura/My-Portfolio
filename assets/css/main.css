@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap');
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+html {
+    max-width: 100%;
+    font-size: 100%;
+}
+
+body {
+    max-width: 100%;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+	cursor: crosshair;
+}
+
+img {
+    max-width: 100%;
+}
+
+::-moz-selection {
+    background: #9FC131;
+}
+
+::selection {
+    background: #9FC131;
+}
+
+
+/* These are the CSS rules for the nav bar. 
+
+    To Do;
+
+    I would like to make the nav part of the hero area or else imprvove the menu styling and make it sticky */
+
+header {
+    background: #042940;
+
+}
+
+#header-nav {
+    font-weight: 600;
+}
+
+.herocontainer nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.herocontainer nav ul li {
+	display: inline-block;
+	margin: 2em 0 0 0;
+	padding-right: 1em;
+}
+
+.herocontainer nav ul li a {
+	text-decoration: none;
+	color: #F4F4F4;
+	font-weight: 600px;
+}
+
+.herocontainer nav ul li:last-child {
+	padding-right: 0;
+}
+
+#header-nav ul li a:hover {
+	color: #DBF227;
+}
+
+/* This is the CSS area for the hero banner area */
+
+
+.herocontainer {
+    margin: 0 7%;
+	padding: 10rem 0;
+}
+
+.hero {
+	color: #DBF227;
+}
+
+.hero h2 {
+	font-size: 50px;
+	padding: 0;
+	margin: 0;
+    -webkit-animation: water-effect 3s infinite ease-in-out;
+            animation: water-effect 3s infinite ease-in-out;
+}
+
+@-webkit-keyframes water-effect {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes water-effect {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.hero p {
+	letter-spacing: 0.2em;
+	font-size: 15px;
+	padding-top: 1em;
+	margin: 0;
+}
+
+.hero .html, .css, .javascript {
+    color: #9FC131;
+}
+
+/* Here I have set a hover rule on the web languages */
+
+.hero .html:hover {
+	-webkit-text-decoration: underline #DBF227;
+	        text-decoration: underline #DBF227;
+}
+
+.hero .css:hover {
+	-webkit-text-decoration: underline #DBF227;
+	        text-decoration: underline #DBF227;
+}
+
+.hero .javascript:hover {
+	-webkit-text-decoration: underline #DBF227;
+	        text-decoration: underline #DBF227;
+}
+
+/* About Me section */
+
+.aboutme {
+    background: #01141F;
+}
+
+.aboutme-container {
+    margin: 0 7%;
+}
+
+.aboutme .flex-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme .col h4 {
+    padding: 3rem 2rem 0 0;
+    color: #9FC131;
+}
+
+.aboutme .col h2 {
+    color: white;
+}
+.aboutme .col-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutme .aboutmeflex {
+    flex-basis: 100%;
+    margin-right: 5rem;
+}
+
+.aboutme .col-2 h3 {
+    padding: 1rem 0;
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+
+.aboutme .col-2 .aboutmeflex p {
+    text-align: left;
+    margin: 3rem auto;
+    color: white;
+    width: 100%;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.02rem;
+}
+
+.aboutme .col-2  p:nth-child(1) {
+    margin-left: 0;
+    padding-right: 2rem;
+}
+
+.aboutme .col-2 .aboutmeflex:nth-child(3) {
+     margin-right: 0;   
+}
+
+
+/* The below CSS is for the portfolio section where I have placed my most recent works to display */
+
+#portfolio {
+    background: #042940;
+}
+
+#portfolio .portfolio-container {
+    margin: 0 7%;
+}
+
+#portfolio h1 {
+    margin: 1rem 0 0 0;
+    color: white;
+    font-size: 2rem;
+}
+
+#portfolio h4 {
+    margin: 0;
+    color: #9FC131;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+
+#portfolio .flex-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#portfolio img {
+    max-width: 100%;
+    border-radius: 20px;
+
+}
+
+#portfolio .work-container {
+    padding: 5rem 0;
+}
+
+#portfolio .work-container .work1 {
+    align-self: center;
+    box-shadow: 2px 2px 15px 10px #01141F;
+    transition: all .4s ease-in-out;
+    border-radius: 20px;
+    margin-right: 2rem;
+}
+
+#portfolio .work-container .work1:hover {
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+    
+}
+
+#portfolio .work-container .work2 {
+    align-self: center;
+    box-shadow: 2px 2px 15px 10px #01141F;
+    transition: all .4s ease-in-out;
+    border-radius: 20px;
+}
+
+
+#portfolio .work-container .work2:hover {
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+}
+
+#portfolio .work-container .work3 {
+    align-self: center;
+    box-shadow: 2px 2px 15px 10px #01141F;
+    transition: all .4s ease-in-out;
+    border-radius: 20px;
+    margin-left: 2rem;
+}
+
+#portfolio .work-container .work3:hover {
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+}
+
+
+/* The below CSS is for the contact form and the signature, to keep consistency throughout the pages */
+
+footer {
+    background: #01141F;
+    width: 100%;
+    padding: 5rem 2rem;
+    color: white;
+}
+
+.footer-text span {
+    color: #DBF227;
+}
+
+.footer-text {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.footer-row {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.footer-row input, .footer-row textarea {
+    display: inline-flex;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ECECEC;
+    border-left: 0;
+    background: none;
+    color: #ECECEC;
+    font-size: 1rem;
+    width: 25%;
+    margin: 2rem auto;
+    height: 2rem;
+}
+
+.footer-row textarea {
+    width: 82%;
+    height: 9rem;
+    justify-content: center;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+::-moz-placeholder {
+    color: white;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+#contact .col-2 {
+    margin: 0 auto;    
+}
+
+#contact .footer-row button {
+    border: 1px solid #DBF227;
+    background: none;
+    font-size: 1rem;
+    color: #ECECEC;
+    width: 22%;
+    padding: 1% 0;
+    border-radius: 50px;
+    margin-bottom: 5rem;
+    font-weight: 600;
+}
+
+#contact .footer-row button:hover {
+    background: #DBF227;
+    color: #042940;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .socials {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    margin-left: 0.5rem;
+    width: 1.5rem;
+    border-radius: 2px;
+}
+
+footer img:hover {
+    background-color: #9FC131;
+}
+
+/* @media query for devices of width 0 - 800px */
+
+@media ( max-width: 800px ) {
+    .aboutme .col-2 {
+        flex-direction: column;
+    }
+    
+    .aboutme .col-2 p {
+        margin: 1rem 0;
+        width: 100%;
+    }
+    
+    .aboutme .col-2 .aboutmeflex:nth-child(3) {
+        margin-bottom: 2rem;
+    }
+    
+    .aboutme .aboutmeflex {
+        width: 100%;
+    }
+    
+    #portfolio .flex-row {
+        flex-direction: column;
+    }
+    
+    #portfolio .work-container .work2, #portfolio .work-container .work3 {
+        margin-top: 2rem ;
+    }
+    
+    #portfolio .work-container .work1, #portfolio .work-container .work3 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .footer-row {
+        flex-direction: column;
+    }
+    
+    .footer-row input, .footer-row textarea {
+        width: 90%;
+    }
+    
+    #contact .footer-row button {
+        align-self: center;
+    }
+    
+    #portfolio .work-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+@media ( max-width: 500px ) {
+    #contact .footer-row button {
+        font-size: 0.8rem;
+    
+    }
+}
