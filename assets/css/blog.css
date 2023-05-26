@@ -21,9 +21,7 @@ img {
 
 /*! To ponential put a logo on the left side and the menu items on the right side !*/
 
-.nav-container {
-    margin-left: 6%; 
-}
+
 
 #header-nav {
     margin: 0;
@@ -34,8 +32,11 @@ img {
 #header-nav ul {
     list-style: none;
     display: flex;
-    width: 90%;
+    justify-content: flex-start;
+    width: 80%;
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 0;
 }
 
 #header-nav ul li {
@@ -56,7 +57,7 @@ img {
 
 .hero h1 {
 	text-align: center;
-	font-size: 6rem;
+	font-size: 4rem;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -79,9 +80,9 @@ hr {
 .section-wrapper {
 	margin: 0 auto;
 	text-align: justify;
-    padding: 2em 2em;
     width: 80%;
     color: #EDEDED;
+    max-width: 1000px;
 }
 
 .section-wrapper h2 {
@@ -95,7 +96,7 @@ hr {
 	margin: 0;
     line-height: 2rem;
     font-size: 1.1rem;
-
+    font-size: 1rem;
 }
 
 /* CSS for the UL and linkedIn post in blog-002 */
@@ -106,7 +107,8 @@ hr {
 
 .blog002 ul {
     margin: 0;
-    padding: 3rem;
+    padding: 3rem 0 3rem 1rem;
+    text-align: left;
 }
 
 .blog002 ul li {
@@ -116,7 +118,7 @@ hr {
 
 .blog002 .linkedinpost {    
     width: 100%;
-    padding: 5rem 2rem 5rem 2rem;
+    padding: 5rem 0;
     margin: -3rem;
     margin: 0 auto;
 }
@@ -135,5 +137,4 @@ article footer {
 article footer:hover {
 	color: #DBF227;
 }
-
 
