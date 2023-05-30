@@ -384,6 +384,7 @@ footer .footer-container {
 footer .socials {
     display: flex;
     align-items: center;
+    margin: 0;
 }
 
 footer img {
