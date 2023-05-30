@@ -401,14 +401,14 @@ footer img:hover {
 
 
 @media ( min-width: 900px ) {
-    img, video {
+    .design-content .crlwork {
         width: 46%;
         margin-left: 1rem;
         maring-right: 1rem;
         transition: all 0.7s ease-in-out;
     }
     
-    img:hover, video:hover {
+    .design-content .crlwork:hover {
         transform: scale(1.2);
     
     }
