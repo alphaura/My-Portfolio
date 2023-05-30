@@ -22,7 +22,7 @@
                 <nav>
                     <ul class="row">
                         <li><a href="../index.html">Home</a></li>
-                        <li><a href="../work/crl-site/index.html">Blog</a></li>
+                        <li><a href="../assets/html/crlproject.html">Blog</a></li>
                         <li><a href="../index.html">Portfolio</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>

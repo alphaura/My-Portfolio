@@ -20,11 +20,13 @@ body {
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 video {
     max-width: 100%;
     width: 1246px;
+    display: block;
 }
 
 ::-moz-selection {
