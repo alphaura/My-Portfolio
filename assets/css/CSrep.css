@@ -1,2 +1,12 @@
 /* CSS Document */
 
+.html a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
+
+.html a:hover {
+  color: #DBF227;
+  text-decoration: underline;
+}
