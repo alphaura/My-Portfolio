@@ -193,7 +193,7 @@ h1 {
 
 /* The design section */
 
-img, video {
+.design-content .crlwork {
     margin: 2rem 0;
 }
 
@@ -388,7 +388,7 @@ footer img:hover {
         padding-right: 2rem;
     }
     
-    img, video {
+    .design-content .crlwork {
         box-shadow: 9px 9px 20px 5px black;
     }
     
