@@ -169,6 +169,11 @@ h1 {
     #contact .footer-row button {
         font-size: 0.8rem;
     }
+  
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
 }
 @media (min-width: 600px) {
     .about-project .container {
