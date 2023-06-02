@@ -214,27 +214,8 @@ h1 {
     .desktop .col1 {
         padding-right: 2rem;
     }
-    .design-content .crlwork {
-        box-shadow: 9px 9px 20px 5px black;
-    }
-    .design-content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+    
 }
 @media (min-width: 900px) {
-    .design-content .crlwork {
-        width: 46%;
-        margin-left: 1rem;
-        maring-right: 1rem;
-        transition: all 0.7s ease-in-out;
-    }
-  
-  .design-content .workVid2 {
-    height: 100%;
-  }
-    .design-content .crlwork:hover {
-        transform: scale(1.2);
-    }
+    
 }
