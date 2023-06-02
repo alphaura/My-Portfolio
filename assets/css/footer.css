@@ -107,3 +107,62 @@ footer img:hover {
     background-color: #9FC131;
 }
 
+
+/* @media query for devices of width 0 - 800px */
+
+@media ( max-width: 800px ) {
+    .aboutme .col-2 {
+        flex-direction: column;
+    }
+    
+    .aboutme .col-2 p {
+        margin: 1rem 0;
+        width: 100%;
+    }
+    
+    .aboutme .col-2 .aboutmeflex:nth-child(3) {
+        margin-bottom: 2rem;
+    }
+    
+    .aboutme .aboutmeflex {
+        width: 100%;
+    }
+    
+    #portfolio .flex-row {
+        flex-direction: column;
+    }
+    
+    #portfolio .work-container .work2, #portfolio .work-container .work3 {
+        margin-top: 2rem ;
+    }
+    
+    #portfolio .work-container .work1, #portfolio .work-container .work3 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .footer-row {
+        flex-direction: column;
+    }
+    
+    .footer-row input, .footer-row textarea {
+        width: 90%;
+    }
+    
+    #contact .footer-row button {
+        align-self: center;
+    }
+    
+    #portfolio .work-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+@media ( max-width: 500px ) {
+    #contact .footer-row button {
+        font-size: 0.8rem;
+    
+    }
+}
