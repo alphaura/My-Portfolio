@@ -3,8 +3,12 @@
 
 footer {
     background: #01141F;
-    padding: 5rem 2rem;
     color: white;
+  padding-top: 5rem;
+}
+
+.footer--container {
+  margin: 0 7%;
 }
 
 #contact p {
@@ -46,8 +50,10 @@ footer {
 }
 
 
-#contact a:hover {
-  
+.footer--flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
 }
 
 footer h2 {
@@ -59,7 +65,7 @@ footer h2 {
 footer .socials {
     display: flex;
     align-items: center;
-    margin: 0;
+    margin: 0 7% 0 0;
 }
 
 footer img {
@@ -72,3 +78,15 @@ footer img:hover {
     background-color: #9FC131;
 }
 
+@media ( min-width: 1000px ) {
+  
+  footer h2 {
+    font-size: 3.5rem;
+  }
+  
+  #contact p{
+    font-size: 2rem;
+    max-width: 1000px;
+  }
+  
+}
