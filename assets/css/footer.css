@@ -2,9 +2,9 @@
 /* The below CSS is for the contact form and the signature, to keep consistency throughout the pages */
 
 footer {
-    background: #01141F;
-    color: white;
-  padding-top: 5rem;
+  background: #01141F;
+  color: white;
+  padding: 5rem 0;
 }
 
 .footer--container {
